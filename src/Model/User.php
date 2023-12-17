@@ -233,7 +233,7 @@ class User extends Model
      */
     public function isCloseFriend(): bool
     {
-        return $this->pluck('personalDetail') !== null;
+        return $this->pluck('personalDetail')  == null;
     }
 
     /**
@@ -270,3 +270,4 @@ class User extends Model
         return $this->get('userProfile/v1/internal/users/' . $this->accountId . '/profiles');
     }
 }
+ 
