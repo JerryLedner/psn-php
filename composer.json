@@ -1,5 +1,5 @@
 {
-    "name": "tustin/psn-php",
+##  "name": "tustin/psn-php",
     "license": "MIT",
     "description": "PHP wrapper for the PlayStation API.",
     "homepage": "https://github.com/Tustin/psn-php",
@@ -27,3 +27,4 @@
         "phpunit": "composer dump-autoload && vendor/bin/phpunit"
     }
 }
+ 
